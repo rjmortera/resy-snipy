@@ -13,7 +13,7 @@ go run main.go --wh=WEBHOOK_URL
 ```
 
 ### Different Restaurant?
-Open the `resys.txt` and add the desired date, party size, and venueId in the following format:
+Edit the `resys.txt` and add the desired date, party size, and venueId in the following format:
 `2022-03-01,2,6194`.  
 Feel free to use [this](https://resy-api.vercel.app/api/v1/resy?location=ny&slug=carbone) 
 by changing the location and slug params to get the venueId.  

@@ -157,6 +157,6 @@ func main() {
 	flag.Parse()
 	for {
 		availability(*webhook)
-		time.Sleep(6 * time.Second)
+		time.Sleep(60 * time.Second)
 	}
 }
